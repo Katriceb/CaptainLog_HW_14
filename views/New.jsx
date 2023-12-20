@@ -9,7 +9,7 @@ class New extends React.Component {
           <label>Title: </label>
           <input type="text" name="title" /><br />
           <label>Entry: </label>
-          <text name="entry"></text><br />
+          <textarea name="entry"></textarea><br />
           <label>Ship is Broken: </label>
           <input type="checkbox" name="shipIsBroken" /><br />
           <input type="submit" value="Submit" />
